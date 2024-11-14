@@ -1,0 +1,14 @@
+$TTL    604800
+@       IN      SOA     dnsa.ies.test. root.ies.test. (
+                            2         ; Serial
+                       604800         ; Refresh
+                        86400         ; Retry
+                      2419200         ; Expire
+                       604800 )       ; Negative Cache TTL
+;
+@       IN      NS      dnsa.ies.test.
+server02 IN     A       192.168.57.100
+pc04    IN      A       192.168.57.101
+pc05    IN      A       192.168.57.102
+pc06    IN      A       192.168.57.103
+pc07    IN      A       192.168.57.104

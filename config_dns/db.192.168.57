@@ -1,0 +1,20 @@
+$TTL    604800
+@       IN      SOA     dnsa.ies.test. root.ies.test. (
+                            2         ; Serial
+                       604800         ; Refresh
+                        86400         ; Retry
+                      2419200         ; Expire
+                       604800 )       ; Negative Cache TTL
+;
+@       IN      NS      dnsa.ies.test.
+
+10      IN      PTR     dnsa.ies.test.
+20      IN      PTR     pcprofesor.informatica.ies.test.
+21      IN      PTR     pc01.informatica.ies.test.
+22      IN      PTR     pc02.informatica.ies.test.
+23      IN      PTR     pc03.informatica.ies.test.
+100     IN      PTR     server02.aulas.ies.test.
+101     IN      PTR     pc04.aulas.ies.test.
+102     IN      PTR     pc05.aulas.ies.test.
+103     IN      PTR     pc06.aulas.ies.test.
+104     IN      PTR     pc07.aulas.ies.test.
